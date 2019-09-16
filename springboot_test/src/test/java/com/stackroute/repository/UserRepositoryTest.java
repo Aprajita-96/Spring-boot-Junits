@@ -62,7 +62,7 @@ public class UserRepositoryTest {
         userRepository.save(u);
         userRepository.save(u1);
 
-        List<User> list = userRepository.findAll();
+        List<User> list = userRepository.
         Assert.assertEquals("Johny",list.get(0).getFirstName());
 
 

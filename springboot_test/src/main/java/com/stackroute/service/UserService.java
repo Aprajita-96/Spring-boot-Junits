@@ -11,4 +11,5 @@ public interface UserService {
     public User saveUser(User user) throws UserAlreadyExistException;
 
     public List<User> getAllUser();
+    public String getUserDetails(User user);
 }
